@@ -19,7 +19,6 @@ public class BinTree {
 	}
 	
 	public BinTree(char value) {
-		super();
 		root = new Node(value);
 		currentNode = root;
 	}
